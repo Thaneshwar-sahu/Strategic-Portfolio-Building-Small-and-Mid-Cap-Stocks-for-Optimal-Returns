@@ -45,7 +45,7 @@ When constructing the GMVP, the process involves calculating the **expected retu
 
 ### C. Weight Output and Stock Names with Weights:
 
-In a GMVP, stocks with historically **low volatility**, such as **SJVN** or **Cipla**, may receive higher weights, reflecting their contribution to **risk reduction**. For our portfolio, the weight output shows that stocks like **SJVN**, **CIPLA**, and **MPHASIS** carry significant weights, emphasizing their role in minimizing risk. The GMVP weight distribution aligns with the **Minimum Variance Portfolio (Method 2)**, confirming that the GMVP for these stocks is essentially the same as the **Minimum Variance Portfolio** in this case.
+In a GMVP, stocks with historically **low volatility**, such as **SJVN** or **Cipla**, may receive higher weights, reflecting their contribution to **risk reduction**. For our portfolio, the weight output shows that stocks like **SJVN**, **CIPLA**, and **MPHASIS** carry significant weights, emphasizing their role in minimizing risk. The GMVP weight distribution aligns with the **Minimum Variance Portfolio (Method 3)**, confirming that the GMVP for these stocks is essentially the same as the **Minimum Variance Portfolio** in this case.
 
 ### D. Return and Risk:
 
