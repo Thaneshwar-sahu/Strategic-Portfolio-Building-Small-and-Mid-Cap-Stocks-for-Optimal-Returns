@@ -38,6 +38,15 @@ Each method is carefully explained, detailing its approach, stock weight allocat
 
 The portfolios underwent **historical backtesting** to evaluate **performance**, providing valuable insights into **risk**, **volatility**, and other key data for future investment decisions. The analysis explores various portfolio construction methods tailored to different **investor profiles** based on **risk** and **return**. Additionally, the **stock selection rationale** is provided to support short-term investment strategies.
 
+### Backtesting of Manually Selected stocks
+<p aligne='center'>
+  <img src='./Backtesting_My_Portfolio.png'>
+</p>
+
+### Backtesting of Gen AI Selected stocks
+<p aligne='center'>
+  <img src='./Backtesting Result for Genai Stocks.png'>
+</p>
 ---
 
 ## Key Results:
