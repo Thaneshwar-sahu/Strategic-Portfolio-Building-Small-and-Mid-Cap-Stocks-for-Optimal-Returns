@@ -33,7 +33,37 @@ The portfolio construction employs a variety of methods to optimize returns and 
 Each method is carefully explained, detailing its approach, stock weight allocation, and conclusion to aid in portfolio construction.
 
 ---
+## Sample Method : Global Minimum Variance Portfolio (GMVP)
 
+### A. What is the method?
+
+The **Global Minimum Variance Portfolio (GMVP)** is an extension of the **Minimum Variance Portfolio** concept. Its goal is to find the portfolio with the **lowest possible variance**, without targeting a specific return. The GMVP lies at the lowest point of the **efficient frontier** in modern portfolio theory, representing the optimal risk-minimized portfolio.
+
+### B. What does it do during portfolio building?
+
+When constructing the GMVP, the process involves calculating the **expected returns**, **variances**, and **covariances** of all assets in the portfolio. Optimization algorithms are then used to determine the **weights** of each asset, with the goal of minimizing overall portfolio variance. This often results in a concentrated portfolio, particularly when a few assets exhibit significantly lower volatility than the others.
+
+### C. Weight Output and Stock Names with Weights:
+
+In a GMVP, stocks with historically **low volatility**, such as **SJVN** or **Cipla**, may receive higher weights, reflecting their contribution to **risk reduction**. For our portfolio, the weight output shows that stocks like **SJVN**, **CIPLA**, and **MPHASIS** carry significant weights, emphasizing their role in minimizing risk. The GMVP weight distribution aligns with the **Minimum Variance Portfolio (Method 2)**, confirming that the GMVP for these stocks is essentially the same as the **Minimum Variance Portfolio** in this case.
+
+### D. Return and Risk:
+
+- **GMVP Annualized Return**: 24.43%
+- **GMVP Annualized Risk (Standard Deviation)**: 14.89%
+- **GMVP Sharpe Ratio**: 1.238
+
+#### Key Metrics:
+- **Return**: The average annual return expected from the portfolio. GMVP prioritizes **risk reduction** over return maximization.
+- **Risk**: Represented by **annualized standard deviation**, indicating portfolio volatility. A lower value in GMVP suggests less exposure to large fluctuations.
+- **Sharpe Ratio**: Measures excess return per unit of risk. A higher Sharpe Ratio indicates better **risk-adjusted return**. With a Sharpe Ratio of 1.238, GMVP is considered a strong, efficient portfolio in terms of risk management.
+
+### E. Conclusion:
+
+The **GMVP** is ideal for **risk-averse investors** who prioritize stability and wish to minimize risk. However, it may not perform as well during bull markets, where higher returns are sought. The similarity between **Method 2** and **Method 3** confirms that our optimization effectively targeted **low risk**, in line with GMVP principles. While the GMVP is a perfect fit for risk-averse investors, it may not suit those seeking higher returns or **diversified exposure**.
+
+
+---
 ## Back Testing:
 
 The portfolios underwent **historical backtesting** to evaluate **performance**, providing valuable insights into **risk**, **volatility**, and other key data for future investment decisions. The analysis explores various portfolio construction methods tailored to different **investor profiles** based on **risk** and **return**. Additionally, the **stock selection rationale** is provided to support short-term investment strategies.
@@ -67,7 +97,6 @@ The primary outcome of the methodology is the selection of **48 stocks**, chosen
 Each method is analyzed for its **application**, **stock weight distribution**, and **effectiveness**, providing a comprehensive view of various investment strategies.
 
 ---
-
 ## Return Comparison and Comments:
 
 The manually curated portfolio achieved a robust return of **56.71%**, driven by high-performing stocks like **POLYCAB** and **CIPLA**. In contrast, the GenAI-selected portfolio delivered a **11.30%** return, showcasing a balanced mix of sectors. Both approaches demonstrate successful investment strategies.
