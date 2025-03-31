@@ -62,5 +62,19 @@ Each method is analyzed for its **application**, **stock weight distribution**, 
 ## Return Comparison and Comments:
 
 The manually curated portfolio achieved a robust return of **56.71%**, driven by high-performing stocks like **POLYCAB** and **CIPLA**. In contrast, the GenAI-selected portfolio delivered a **11.30%** return, showcasing a balanced mix of sectors. Both approaches demonstrate successful investment strategies.
-
 While the manual portfolio emphasized specific high-performing stocks, the GenAI-selected portfolio showcased a **balanced sectoral mix**, resulting in commendable returns. Both methods exhibit successful strategies, emphasizing the importance of tailored **stock selection** and **diversified sectoral allocation** in achieving positive investment outcomes.
+
+#### My Portfolio Returns
+
+<p aligne='center'>
+  <img src='./Selected stocks return.png'>
+</p>
+
+### Gen AI Portfolio Returns
+
+<p aligne='center'>
+  <img src='./Gen AI selected stock portfolio.png'>
+</p>
+
+
+
